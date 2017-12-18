@@ -4,6 +4,7 @@
   "description": "Hello, Vue.js",
   "main": "index.js",
   "scripts": {
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,7 +13,9 @@
     "vue": "^2.5.11"
   },
   "devDependencies": {
-    "browserify": "^14.5.0"
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
   },
   "browser": {
     "vue": "vue/dist/vue.common.js"
